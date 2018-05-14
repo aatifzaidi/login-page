@@ -20,6 +20,8 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
     </style>
 </head>
 <body>
+    <div>
+    <img src="https://media2.giphy.com/media/3oKIP5qPofXRymi2zK/giphy-downsized.gif" alt="Image not found"></div>
     <div class="page-header">
         <h1>Hi, <b><?php echo htmlspecialchars($_SESSION['username']); ?></b>. Welcome to our site.</h1>
     </div>

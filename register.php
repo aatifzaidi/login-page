@@ -57,7 +57,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     } else{
         $confirm_password = trim($_POST['confirm_password']);
         if($password != $confirm_password){
-            $confirm_password_err = 'Password did not match.';
+            $confirm_password_err = 'Thankyou! Now I know your password.';
         }
     }
     
